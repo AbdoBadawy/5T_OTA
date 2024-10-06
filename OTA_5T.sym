@@ -1,0 +1,33 @@
+v {xschem version=3.4.5 file_version=1.2
+}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+L 4 -110 -70 90 0 {}
+L 4 -110 70 90 0 {}
+L 4 -110 -70 -110 70 {}
+L 7 -20 -60 -20 -40 {}
+L 7 90 0 110 0 {}
+L 7 -130 40 -110 40 {}
+L 7 -130 -30 -110 -30 {}
+L 7 -80 -80 -80 -60 {}
+L 7 -50 50 -50 70 {}
+B 5 -22.5 -62.5 -17.5 -57.5 {name=VDD dir=inout}
+B 5 107.5 -2.5 112.5 2.5 {name=VOUT dir=inout}
+B 5 -132.5 37.5 -127.5 42.5 {name=VIN- dir=inout}
+B 5 -132.5 -32.5 -127.5 -27.5 {name=VIN+ dir=inout}
+B 5 -82.5 -82.5 -77.5 -77.5 {name=IBN dir=inout}
+B 5 -52.5 67.5 -47.5 72.5 {name=GND dir=inout}
+T {OTA_5T} -75 -6 0 0 0.3 0.3 {}
+T {@name} 35 -42 0 0 0.2 0.2 {}
+T {VDD} -24 -85 3 1 0.2 0.2 {}
+T {VOUT} 145 -4 0 1 0.2 0.2 {}
+T {VIN-} -105 44 2 1 0.2 0.2 {}
+T {VIN+} -105 -26 2 1 0.2 0.2 {}
+T {IBN} -84 -105 3 1 0.2 0.2 {}
+T {GND} -46 45 1 1 0.2 0.2 {}
